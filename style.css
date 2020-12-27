@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Pacifico&display=swap");
+* {
+  overflow: hidden; }
+
+nav {
+  height: 100px;
+  font-size: 26px;
+  line-height: 29px;
+  color: #68614C;
+  font-family: jura;
+  position: fixed; }
+
+.navbar_d-flex {
+  display: flex;
+  margin-right: 100px;
+  color: #68614C; }
+
+.seven_regular {
+  position: absolute;
+  z-index: 99;
+  font-family: 'Pacifico', cursive;
+  margin-left: 100px;
+  font-size: 48px;
+  line-height: 48px;
+  color: #454138;
+  margin-top: -20px; }
+
+.navbar_color {
+  color: #68614C; }
+
+a:hover {
+  color: #454138; }
+
+body {
+  background-image: url(image/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.line_top {
+  width: 1238px;
+  position: absolute;
+  left: 700.82px;
+  top: 188px;
+  border: 1px solid rgba(104, 97, 76, 0.5);
+  transform: rotate(165deg); }
+
+.line_bottom {
+  width: 1238px;
+  position: absolute;
+  left: 700.82px;
+  top: 758px;
+  border: 1px solid rgba(104, 97, 76, 0.5);
+  transform: rotate(-165deg); }
+
+.container {
+  margin-top: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.h1 {
+  float: right;
+  font-family: 'Pacifico', cursive;
+  color: #454138;
+  font-size: 48px;
+  line-height: 66px; }
+
+.h2 {
+  float: right;
+  font-size: 36px;
+  color: #454138;
+  text-align: right;
+  font-family: jura;
+  width: 630px;
+  height: 250px; }
+
+.button {
+  margin-top: 160px; }
+
+button {
+  width: 350px;
+  height: 100px;
+  background: rgba(203, 182, 110, 0.5);
+  border-radius: 30px;
+  color: #454138;
+  font-family: jura;
+  font-size: 36px;
+  border: none; }
+
+button:focus {
+  outline: none; }
+
+button:hover {
+  background: #9D9362; }
+
+/*# sourceMappingURL=style.css.map */

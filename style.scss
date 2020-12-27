@@ -1,0 +1,106 @@
+//page_one
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Pacifico&display=swap');
+//fonts
+$h1:Lucida Handwriting;
+//font-size
+$navbar-size:26px ;
+$body-size: 36px;
+$h1:48px;
+//colors
+$navbar-color:#68614C;
+$body-color:#454138;
+$button:rgba(203, 182, 110, 0.5);
+*{
+overflow: hidden;
+}
+nav{
+height: 100px;
+font-size: $navbar-size;
+  line-height: 29px;
+  color: $navbar-color;
+  font-family: jura ;
+  position: fixed;
+}
+.navbar_d-flex{
+  display: flex;
+  margin-right:100px;
+  color: $navbar-color ;
+}
+.seven_regular{
+  position: absolute;
+  z-index: 99 ;
+font-family: 'Pacifico', cursive;
+margin-left: 100px;
+font-size: $h1;
+line-height: 48px;
+color: $body-color;
+margin-top: -20px;
+}
+.navbar_color{
+  color: $navbar-color;
+}
+a:hover{
+color: #454138;
+}
+body{
+  background-image: url(image/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size:   cover;
+
+}
+.line_top{
+width: 1238px;
+position: absolute;
+left: 700.82px;
+top: 188px;
+border: 1px solid rgba(104, 97, 76, 0.5);
+transform: rotate(165deg);
+}
+.line_bottom{
+width: 1238px;
+position: absolute;
+left: 700.82px;
+top: 758px;
+border: 1px solid rgba(104, 97, 76, 0.5);
+transform: rotate(-165deg);
+}
+.container{
+  margin-top: 205px;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+  }
+.h1{
+  float: right;
+font-family: 'Pacifico', cursive;
+color: $body-color;
+font-size: $h1;
+line-height: 66px;
+  }
+  .h2{
+    float: right;
+font-size: $body-size;
+color: $body-color;
+text-align: right;
+  font-family: jura ;
+  width: 630px;
+  height:250px ;
+}
+.button{margin-top: 160px;}
+button{
+  width: 350px;
+  height: 100px;
+  background: $button;
+  border-radius: 30px;
+  color: $body-color;
+  font-family: jura ;
+  font-size: $body-size;
+  border: none ;
+  }
+button:focus{
+  outline: none;
+}
+button:hover{
+  background: #9D9362;
+}
