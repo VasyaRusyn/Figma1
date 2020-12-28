@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Pacifico&display=swap");
+* {
+  overflow-x: hidden;
+  font-family: jura; }
+
+nav {
+  height: 100px;
+  font-size: 26px;
+  line-height: 29px;
+  color: #68614C;
+  font-family: jura;
+  position: fixed; }
+
+.navbar_d-flex {
+  display: flex;
+  margin-right: 100px;
+  color: #68614C; }
+
+.seven_regular {
+  position: absolute;
+  z-index: 99;
+  font-family: 'Pacifico', cursive;
+  margin-left: 100px;
+  font-size: 48px;
+  line-height: 48px;
+  color: #454138;
+  margin-top: -40px;
+  overflow: hidden; }
+
+.navbar_color {
+  color: #68614C; }
+
+a:hover {
+  color: #454138; }
+
+.h1 {
+  font-size: 36px;
+  font-family: jura;
+  margin-left: 130px;
+  margin-top: 31px; }
+
+.pink_line {
+  width: 1683px;
+  height: 30px;
+  background: #EFCDCD;
+  border-radius: 15px 0px 0px 15px;
+  margin-top: 40px;
+  position: absolute;
+  left: 420px; }
+
+.box_1 {
+  display: flex; }
+
+.ice {
+  margin-left: 120px;
+  margin-top: 60px; }
+
+.pink_image {
+  background-color: #EFCDCD;
+  width: 450px;
+  height: 100px;
+  border-radius: 0px 0px 0px 60px;
+  margin-left: 120px; }
+
+.add_to {
+  font-size: 36px;
+  margin-left: 60px;
+  margin-top: 20px; }
+
+.heart {
+  float: right;
+  margin-top: -70px;
+  margin-right: 60px;
+  margin-left: 39px; }
+
+.page {
+  display: flex;
+  flex-direction: column; }
+
+.container-fluid {
+  display: flex; }
+
+.lorel {
+  width: 810px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-left: 100px;
+  margin-top: 89px;
+  font-size: 24px;
+  color: #000000; }
+
+.pink_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; }
+
+button {
+  width: 350px;
+  height: 100px;
+  background: rgba(244, 125, 125, 0.5);
+  border-radius: 30px;
+  color: #454138;
+  font-family: jura;
+  font-size: 36px;
+  border: none;
+  float: right;
+  margin-top: 50px; }
+
+button:focus {
+  outline: none; }
+
+button:hover {
+  background: rgba(243, 115, 115, 0.93); }
+
+.pink_line_bottom {
+  background-color: #EFCDCD;
+  border-radius: 15px 0px 0px 15px;
+  width: 1640px;
+  height: 30px;
+  position: absolute;
+  top: 900px;
+  left: 120px; }
+
+/*# sourceMappingURL=stylepagetwo.css.map */

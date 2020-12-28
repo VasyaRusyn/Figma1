@@ -1,0 +1,139 @@
+//page_one
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Pacifico&display=swap');
+//fonts
+$h1:Lucida Handwriting;
+//font-size
+$navbar-size:26px ;
+$body-size: 36px;
+$body-smal-size:24px;
+$h1:48px;
+//colors
+$navbar-color:#68614C;
+$body-color:#454138;
+$button:rgba(203, 182, 110, 0.5);
+$pink:#EFCDCD;
+$black_color: #000000;
+$pink_button:rgba(244, 125, 125, 0.5);
+*{
+overflow-x:  hidden;
+  font-family: jura ;
+}
+nav{
+height: 100px;
+font-size: $navbar-size;
+  line-height: 29px;
+  color: $navbar-color;
+  font-family: jura ;
+  position: fixed;
+}
+.navbar_d-flex{
+  display: flex;
+  margin-right:100px;
+  color: $navbar-color ;
+}
+.seven_regular{
+  position: absolute;
+  z-index: 99 ;
+font-family: 'Pacifico', cursive;
+margin-left: 100px;
+font-size: $h1;
+line-height: 48px;
+color: $body-color;
+margin-top: -40px;
+overflow: hidden;
+}
+.navbar_color{
+  color: $navbar-color;
+}
+a:hover{
+color: #454138;
+}
+.h1{
+  font-size: $body-size;
+  font-family: jura;
+  margin-left: 130px;
+  margin-top: 31px;
+}
+.pink_line{
+  width: 1683px;
+height: 30px;
+background: $pink;
+border-radius: 15px 0px 0px 15px;
+margin-top:40px;
+position: absolute;
+left: 420px;
+}
+.box_1{
+  display: flex;
+}
+.ice{
+margin-left: 120px;
+margin-top: 60px;
+}
+.pink_image{
+  background-color: $pink;
+  width: 450px;
+height: 100px;
+border-radius: 0px 0px 0px 60px;
+margin-left: 120px;
+}
+.add_to{
+  font-size: $body-size;
+  margin-left: 60px;
+  margin-top: 20px;
+  }
+.heart{
+  float: right;
+  margin-top: -70px;
+  margin-right: 60px;
+  margin-left: 39px;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+}
+.container-fluid{
+  display: flex;
+}
+.lorel{
+  width: 810px;
+font-weight: 300;
+line-height: 28px;
+margin-left: 100px;
+margin-top: 89px;
+font-size: $body-smal-size;
+color: $black_color;
+}
+.pink_box{
+  display: flex;
+  justify-content:   space-between;
+  margin-top: 30px;
+}
+button{
+  width: 350px;
+  height: 100px;
+  background:  $pink_button ;
+  border-radius: 30px;
+  color: $body-color;
+  font-family: jura ;
+  font-size: $body-size;
+  border: none ;
+  float: right;
+  margin-top: 50px;
+  }
+button:focus{
+  outline: none;
+}
+button:hover{
+  background:rgba(243, 115, 115, 0.93); ;
+}
+.pink_line_bottom{
+background-color: $pink;
+border-radius: 15px 0px 0px 15px;
+width: 1640px;
+height: 30px;
+position: absolute;
+top:900px;
+left: 120px;
+}
